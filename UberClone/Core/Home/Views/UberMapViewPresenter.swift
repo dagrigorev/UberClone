@@ -13,6 +13,7 @@ struct UberMapViewPresenter: UIViewRepresentable {
 
     let mkMapView = MKMapView()
     let locationManager = LocationManager()
+    @EnvironmentObject var locationSearchViewModel: LocationSearchViewModel
 
     func makeUIView(context: Context) -> UIView {
         // set coordinator as base coordinate calculation delegate
@@ -27,7 +28,9 @@ struct UberMapViewPresenter: UIViewRepresentable {
     }
     
     func updateUIView(_ uiView: UIViewType, context: Context) {
-        
+        if let selectedLocation = locationSearchViewModel.selectedLocation {
+            print("DBG: \(selectedLocation)")
+        }
     }
     
     func makeCoordinator() -> MkMapCoordinator {

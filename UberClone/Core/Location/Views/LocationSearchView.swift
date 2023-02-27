@@ -9,8 +9,8 @@ import SwiftUI
 
 struct LocationSearchView: View {
     @State private var startLocation = ""
-    @State private var destinationLocation = ""
-    @StateObject var viewModel = LocationSearchViewModel()
+    @Binding var showLocationSearchView: Bool
+    @EnvironmentObject var viewModel: LocationSearchViewModel
 
     var body: some View {
         VStack {
@@ -51,9 +51,19 @@ struct LocationSearchView: View {
             ScrollView {
                 VStack (alignment: .leading) {
                     ForEach(viewModel.results, id: \.self) { result in
-                        LocationSearchResultView(title: result.title, subtitle: result.subtitle)
+                        LocationSearchResultView(
+                            title: result.title, subtitle: result.subtitle
+                        )
+                        .onTapGesture {
+                            viewModel.selectLocation(result.title)
+                            showLocationSearchView.toggle()
+                        }
                     }
                 }
+            }
+            
+            onAppear() {
+                
             }
         }
         .background(.white)
@@ -62,6 +72,6 @@ struct LocationSearchView: View {
 
 struct LocationSearchView_Previews: PreviewProvider {
     static var previews: some View {
-        LocationSearchView()
+        LocationSearchView(showLocationSearchView: .constant(false))
     }
 }
