@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA00CAFE000000000000000B /* MapViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00CAFE000000000000000A /* MapViewState.swift */; };
+		AA00CAFE000000000000000D /* UberLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00CAFE000000000000000C /* UberLocation.swift */; };
+		AA00CAFE000000000000000F /* RideType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00CAFE000000000000000E /* RideType.swift */; };
+		AA00CAFE0000000000000011 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00CAFE0000000000000010 /* User.swift */; };
+		AA00CAFE0000000000000013 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00CAFE0000000000000012 /* Trip.swift */; };
+		AA00CAFE0000000000000015 /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00CAFE0000000000000014 /* Driver.swift */; };
+		AA00CAFE0000000000000017 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00CAFE0000000000000016 /* Extensions.swift */; };
+		AA00CAFE0000000000000019 /* Color+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00CAFE0000000000000018 /* Color+Theme.swift */; };
+		AA00CAFE000000000000001B /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00CAFE000000000000001A /* SideMenuView.swift */; };
+		AA00CAFE000000000000001D /* SideMenuOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00CAFE000000000000001C /* SideMenuOptionView.swift */; };
+		AA00CAFE000000000000001F /* SideMenuOptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00CAFE000000000000001E /* SideMenuOptionViewModel.swift */; };
+		AA00CAFE0000000000000021 /* TripLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00CAFE0000000000000020 /* TripLoadingView.swift */; };
+		AA00CAFE0000000000000023 /* TripAcceptedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00CAFE0000000000000022 /* TripAcceptedView.swift */; };
+		AA00CAFE0000000000000025 /* TripInProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00CAFE0000000000000024 /* TripInProgressView.swift */; };
+		AA00CAFE0000000000000027 /* TripCompletedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00CAFE0000000000000026 /* TripCompletedView.swift */; };
+		AA00CAFE0000000000000029 /* TripCancelledView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00CAFE0000000000000028 /* TripCancelledView.swift */; };
+		AA00CAFE000000000000002B /* RideRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00CAFE000000000000002A /* RideRequestView.swift */; };
+		AA00CAFE000000000000002D /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00CAFE000000000000002C /* UserViewModel.swift */; };
 		B25FB7B529ACA85800632264 /* UberCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25FB7B429ACA85800632264 /* UberCloneApp.swift */; };
 		B25FB7B929ACA85900632264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B25FB7B829ACA85900632264 /* Assets.xcassets */; };
 		B25FB7BC29ACA85900632264 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B25FB7BB29ACA85900632264 /* Preview Assets.xcassets */; };
@@ -21,6 +39,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA00CAFE000000000000000A /* MapViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewState.swift; sourceTree = "<group>"; };
+		AA00CAFE000000000000000C /* UberLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberLocation.swift; sourceTree = "<group>"; };
+		AA00CAFE000000000000000E /* RideType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideType.swift; sourceTree = "<group>"; };
+		AA00CAFE0000000000000010 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AA00CAFE0000000000000012 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		AA00CAFE0000000000000014 /* Driver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
+		AA00CAFE0000000000000016 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AA00CAFE0000000000000018 /* Color+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Theme.swift"; sourceTree = "<group>"; };
+		AA00CAFE000000000000001A /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		AA00CAFE000000000000001C /* SideMenuOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionView.swift; sourceTree = "<group>"; };
+		AA00CAFE000000000000001E /* SideMenuOptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionViewModel.swift; sourceTree = "<group>"; };
+		AA00CAFE0000000000000020 /* TripLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripLoadingView.swift; sourceTree = "<group>"; };
+		AA00CAFE0000000000000022 /* TripAcceptedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripAcceptedView.swift; sourceTree = "<group>"; };
+		AA00CAFE0000000000000024 /* TripInProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripInProgressView.swift; sourceTree = "<group>"; };
+		AA00CAFE0000000000000026 /* TripCompletedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCompletedView.swift; sourceTree = "<group>"; };
+		AA00CAFE0000000000000028 /* TripCancelledView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCancelledView.swift; sourceTree = "<group>"; };
+		AA00CAFE000000000000002A /* RideRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideRequestView.swift; sourceTree = "<group>"; };
+		AA00CAFE000000000000002C /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		B25FB7B129ACA85800632264 /* UberClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B25FB7B429ACA85800632264 /* UberCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberCloneApp.swift; sourceTree = "<group>"; };
 		B25FB7B829ACA85900632264 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,6 +82,85 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA00CAFE0000000000000001 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AA00CAFE0000000000000016 /* Extensions.swift */,
+				AA00CAFE0000000000000018 /* Color+Theme.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		AA00CAFE0000000000000002 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				AA00CAFE0000000000000003 /* Views */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		AA00CAFE0000000000000003 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA00CAFE000000000000001A /* SideMenuView.swift */,
+				AA00CAFE000000000000001C /* SideMenuOptionView.swift */,
+				AA00CAFE000000000000001E /* SideMenuOptionViewModel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA00CAFE0000000000000004 /* Trip */ = {
+			isa = PBXGroup;
+			children = (
+				AA00CAFE0000000000000005 /* Views */,
+			);
+			path = Trip;
+			sourceTree = "<group>";
+		};
+		AA00CAFE0000000000000005 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA00CAFE0000000000000020 /* TripLoadingView.swift */,
+				AA00CAFE0000000000000022 /* TripAcceptedView.swift */,
+				AA00CAFE0000000000000024 /* TripInProgressView.swift */,
+				AA00CAFE0000000000000026 /* TripCompletedView.swift */,
+				AA00CAFE0000000000000028 /* TripCancelledView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA00CAFE0000000000000006 /* Ride */ = {
+			isa = PBXGroup;
+			children = (
+				AA00CAFE0000000000000007 /* Views */,
+			);
+			path = Ride;
+			sourceTree = "<group>";
+		};
+		AA00CAFE0000000000000007 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA00CAFE000000000000002A /* RideRequestView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA00CAFE0000000000000008 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				AA00CAFE0000000000000009 /* ViewModels */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		AA00CAFE0000000000000009 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AA00CAFE000000000000002C /* UserViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		B25FB7A829ACA85800632264 = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +180,7 @@
 		B25FB7B329ACA85800632264 /* UberClone */ = {
 			isa = PBXGroup;
 			children = (
+				AA00CAFE0000000000000001 /* Utils */,
 				B25FB7C729ACA8A200632264 /* App */,
 				B25FB7C629ACA89D00632264 /* Core */,
 				B25FB7C529ACA88C00632264 /* Extensions */,
@@ -87,6 +203,12 @@
 		B25FB7C229ACA87800632264 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				AA00CAFE000000000000000A /* MapViewState.swift */,
+				AA00CAFE000000000000000C /* UberLocation.swift */,
+				AA00CAFE000000000000000E /* RideType.swift */,
+				AA00CAFE0000000000000010 /* User.swift */,
+				AA00CAFE0000000000000012 /* Trip.swift */,
+				AA00CAFE0000000000000014 /* Driver.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -109,6 +231,10 @@
 		B25FB7C629ACA89D00632264 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				AA00CAFE0000000000000002 /* SideMenu */,
+				AA00CAFE0000000000000004 /* Trip */,
+				AA00CAFE0000000000000006 /* Ride */,
+				AA00CAFE0000000000000008 /* Profile */,
 				B25FB7D129ACD9F400632264 /* Location */,
 				B25FB7D029ACD9D300632264 /* Home */,
 			);
@@ -204,7 +330,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 2660;
 				TargetAttributes = {
 					B25FB7B029ACA85800632264 = {
 						CreatedOnToolsVersion = 14.2;
@@ -247,6 +373,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				B25FB7DD29ACE87100632264 /* LocationSearcViewModel.swift in Sources */,
+				AA00CAFE000000000000000B /* MapViewState.swift in Sources */,
+				AA00CAFE000000000000000D /* UberLocation.swift in Sources */,
+				AA00CAFE000000000000000F /* RideType.swift in Sources */,
+				AA00CAFE0000000000000011 /* User.swift in Sources */,
+				AA00CAFE0000000000000013 /* Trip.swift in Sources */,
+				AA00CAFE0000000000000015 /* Driver.swift in Sources */,
+				AA00CAFE0000000000000017 /* Extensions.swift in Sources */,
+				AA00CAFE0000000000000019 /* Color+Theme.swift in Sources */,
+				AA00CAFE000000000000001B /* SideMenuView.swift in Sources */,
+				AA00CAFE000000000000001D /* SideMenuOptionView.swift in Sources */,
+				AA00CAFE000000000000001F /* SideMenuOptionViewModel.swift in Sources */,
+				AA00CAFE0000000000000021 /* TripLoadingView.swift in Sources */,
+				AA00CAFE0000000000000023 /* TripAcceptedView.swift in Sources */,
+				AA00CAFE0000000000000025 /* TripInProgressView.swift in Sources */,
+				AA00CAFE0000000000000027 /* TripCompletedView.swift in Sources */,
+				AA00CAFE0000000000000029 /* TripCancelledView.swift in Sources */,
+				AA00CAFE000000000000002B /* RideRequestView.swift in Sources */,
+				AA00CAFE000000000000002D /* UserViewModel.swift in Sources */,
 				B25FB7D929ACDDD000632264 /* LocationSearchView.swift in Sources */,
 				B25FB7D729ACDBED00632264 /* MapViewActionsView.swift in Sources */,
 				B25FB7DB29ACE0C800632264 /* LocationSearchResultView.swift in Sources */,
@@ -295,8 +439,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = KP2NRQRPXF;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -316,6 +462,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -355,8 +502,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = KP2NRQRPXF;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -369,6 +518,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
@@ -383,7 +533,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"UberClone/Preview Content\"";
-				DEVELOPMENT_TEAM = KP2NRQRPXF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow to access  your location to get yuor position for drivers";
@@ -413,7 +562,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"UberClone/Preview Content\"";
-				DEVELOPMENT_TEAM = KP2NRQRPXF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow to access  your location to get yuor position for drivers";
