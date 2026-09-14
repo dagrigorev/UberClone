@@ -7,18 +7,19 @@
 
 import SwiftUI
 
+/// The collapsed "Where to go?" pill that activates the search screen.
 struct LocationView: View {
     var body: some View {
         HStack {
-            
+
             Rectangle()
                 .fill(.black)
                 .frame(width: 8, height: 8)
                 .padding(.horizontal)
-            
+
             Text("Where to go?")
                 .foregroundColor(Color(.darkGray))
-            
+
             Spacer()
         }
         .frame(width: UIScreen.main.bounds.width - 64,
@@ -26,7 +27,7 @@ struct LocationView: View {
         .background(
             Rectangle()
                 .fill(Color(.white))
-                .shadow(color: .black, radius: 2)
+                .shadow(color: .black.opacity(0.3), radius: 4)
         )
     }
 }
